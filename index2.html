@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <div class="container">
+<div class="todo-app">
+    <div class="searchbox">
+    <a href="index3.html"><button class="backbtn">Back</button></a>
+    <form class="form-inline">
+        <input class="topbox" type="search" placeholder="search task" aria-label="search task" id="sreachtextbox"/>
+        <button class="btn" onkeyup="filter()">Search</button>
+    </form>
+</div>
+    <h2>Personal To-Do List <img src="resposive/todoo.png"></h2>
+    <div class="row">
+        <input type="text" id="input-box" placeholder="Add your task">
+        <button class="add" onclick="addTask()">Add</button>
+    </div>
+        <ul id="list-container">
+            
+        </ul>
+</div>
+   </div>
+   <script src="./random.js"></script>
+</body>
+</html>
